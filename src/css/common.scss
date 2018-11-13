@@ -1,0 +1,24 @@
+
+body{background: #fff;font-family:"arial,Microsoft YaHei,Helvetica,sans-serif";font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-font-smoothing:antialiased}
+body,button,dd,dl,dt,figure,h1,h2,h3,h4,h5,html,input,li,p,select,span,strong,textarea,u,ul{margin:0;padding:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
+h1,h2,h3,h4,h5,h6{font-weight:400}
+a{text-decoration: none;}
+ul,ol {list-style: none;}
+img{width: 100%;height: 100%;}
+input{border: none;outline: none;font-size: 26px;}
+input::-webkit-input-placeholder{color: #ccc;}
+body>a{display: none;}
+
+.fl{float:left}
+.fr{float:right}
+.clearfix{zoom:1}
+.clearfix:after{content:'.';display:table;height:0;clear:both;visibility:hidden}
+.hidden{visibility:hidden}
+.none{display:none}
+
+.alertBox{position:fixed;top:80%;left:50%;z-index:10001;margin:-20px 0 0 -150px;width:300px;height:40px;border-radius:5px;background:#000;color:#fff;text-align:center;font-size:15px;line-height:40px;animation:boxfade 2s ease;}
+.mask_alert{position:fixed;top:0;left:0;z-index:2;width:100%;height:150%;background:-webkit-radial-gradient(center,rgba(0,0,0,.5),rgba(0,0,0,1) 50%);background:#000;opacity:.5}
+.xq_poupe{ position: fixed; top: 36%; left: 5%; width: 90%; background: #fff; border-radius: .2rem; -webkit-border-radius: .2rem; z-index: 3;}
+.xq_poupe p{ padding: 8% 5%; font-size: 30px; line-height: 50px; word-break: break-all;}
+.xq_poupe span{ display: block; background: #f0f0f0; font-size: 38px; letter-spacing: 20px; line-height: 96px; text-align: center; border-radius: 0 0 .2rem .2rem;}

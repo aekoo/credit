@@ -1,0 +1,87 @@
+@import './common.scss';
+body{
+  margin: 0 auto;
+  max-width: 780px;
+  background-color: #000;
+}
+.cebbank{
+  height: 100%;
+  .content{
+    margin-top: -190px;
+    width: 100%;
+    .btn{
+      display: block;
+      margin: 0 30px;
+      height: 88px;
+      line-height: 88px;
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #33250B;
+      border-radius: 44px;
+      background: linear-gradient(90deg, #f3d898, #d8b57d);
+    }
+    .steps{
+      position: relative;
+      display: flex;
+      margin: 51px 30px 46px;
+      border: 1px solid #666;
+      font-size: 24px;
+      color: #E5D2B1;
+      .step-title{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        padding: 0 10px;
+        font-size: 28px;
+        background: #000;
+
+      }
+      .step{
+        position: relative;
+        padding: 43px 0;
+        flex: 1;
+        text-align: center;
+        img{
+          width: 60px;
+          height: 50px;
+          margin-bottom: 15px;
+        }
+      }
+      .arrow:after{
+        position: absolute;
+        content: "";
+        top: 59px;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        background: url('../img/cebbank/ic_arrow.png');
+        background-size: cover;
+      }
+    }
+    .footer{
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      color: #999;
+      p{
+        margin-bottom: 6px;
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+      .tel{
+        a{
+          color: #999;
+        }
+      }
+      .about{
+        display: inline-block;
+        margin-bottom: 21px;
+        color: #E5D2B1;
+        text-decoration: underline;
+      }
+    }
+  }
+}

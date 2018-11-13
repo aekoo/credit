@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <title>**信用卡</title>
+  <link rel="stylesheet" href="css/cebbank.css">
+  <script>
+    var documentElement = document.documentElement;
+    function callback() {
+      var clientWidth = documentElement.clientWidth;
+      clientWidth = clientWidth < 780 ? clientWidth : 780;
+      documentElement.style.fontSize = clientWidth / 10 + 'px';
+    }
+    document.addEventListener('DOMContentLoaded', callback)
+    window.addEventListener('orientationchange' in window ? 'orientationchange' : 'resize', callback)
+  </script>
+</head>
+
+<body>
+  <div class="cebbank">
+    <img src="img/cebbank/ic_bg.png"/>
+    <div class="content">
+      <a class="btn" target="_blank" href="https://xyk.cebbank.com/cebmms/apply/ps/card-list.htm?pro_code=">快速办卡</a>
+      <div class="steps">
+        <span class="step-title">轻松3步拿卡</span>
+        <div class="step arrow">
+          <img src="img/cebbank/step1.png">
+          <p>手机申请</p>
+        </div>
+        <div class="step arrow">
+          <img src="img/cebbank/step2.png">
+          <p>当天审核</p>
+        </div>
+        <div class="step">
+          <img src="img/cebbank/step3.png">
+          <p>邮寄到家</p>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">版权所有:**信息技术有限公司 </p>
+        <p class="tel">客服电话:<a href="tel:4007676108">400****108</a></p>
+        <p class="records">ICP备11****76号-1</p>
+        <a class="about" href="about.html">关于我们>></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

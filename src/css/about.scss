@@ -1,0 +1,28 @@
+@import './common.scss';
+.about{
+  margin: 49px 42px;
+  color: #333;
+  .title{
+    position: relative;
+    padding-left: 12px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .title:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 6px;
+    height: 33px;
+    border-radius: 3px;
+    background: #E1BA78;
+  }
+  .content{
+    margin: 23px 0 48px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+  }
+}
